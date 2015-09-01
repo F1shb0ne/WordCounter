@@ -1,0 +1,11 @@
+name: WordCounter
+version: 1.0.0
+author: Fish
+main: ca.vire.WordCounter.Plugin
+commands:
+   wc:
+      description: WordCounter root command.
+      usage: /wc
+      permission: WordCounter.wc
+      permission-message: You do not have permission to use this.
+
